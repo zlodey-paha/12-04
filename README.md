@@ -32,7 +32,7 @@ GROUP BY
 HAVING 
   COUNT(c.customer_id) > 300;
 ```
-![zapros300]()
+![zapros300](https://github.com/zlodey-paha/12-04/blob/main/Work/1.Zapros300.PNG)
 
 ### Задание 2
 
@@ -49,7 +49,7 @@ FROM
 WHERE 
   length > (SELECT AVG(length) FROM sakila.film);
 ```
-![zapros300]()
+![film](https://github.com/zlodey-paha/12-04/blob/main/Work/2.Films.PNG)
 
 ### Задание 3
 
@@ -80,7 +80,7 @@ FROM
 GROUP BY 
   mr.месяц, mr.сумма_платежей;
 ```
-![zapros300]()
+![arenda](https://github.com/zlodey-paha/12-04/blob/main/Work/3.arenda.PNG)
 
 ## Дополнительные задания (со звёздочкой*)
 Эти задания дополнительные, то есть не обязательные к выполнению, и никак не повлияют на получение вами зачёта по этому домашнему заданию. Вы можете их выполнить, если хотите глубже шире разобраться в материале.
